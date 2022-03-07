@@ -2,7 +2,7 @@
 
 Bot Telegram untuk menyimpan Posting atau File yang dapat Diakses melalui Link Khusus.
 
-<img src="https://telegra.ph/file/b688e58dc41a577ec1616.jpg">
+<img src="https://telegra.ph/file/4541a63f5fbb976dd7313.jpg">
 
 
 ### Setup Repo ini join 4 ch ngentod
@@ -14,7 +14,7 @@ Bot Telegram untuk menyimpan Posting atau File yang dapat Diakses melalui Link K
 ##
 ### Installation
 #### Deploy on Heroku
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Yansaii/File-Sharing-Bot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ReyyNada/File-Sharing-Reyy"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 **Tonton Video Tutorial Ini di YouTube untuk Bantuan memasang di Heroku**<br>
@@ -24,7 +24,7 @@ Bot Telegram untuk menyimpan Posting atau File yang dapat Diakses melalui Link K
 
 #### Deploy in your VPS
 ````bash
-git clone https://github.com/Yansaii/File-Sharing-Bot
+git clone https://github.com/ReyyNada/File-Sharing-Reyy
 cd File-Sharing
 pip3 install -r requirements.txt
 # <Create config.py appropriately>
