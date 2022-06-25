@@ -12,11 +12,9 @@ from config import (
     API_HASH,
     APP_ID,
     CHANNEL_ID,
-    FORCE_SUB_CHANNEL,
-    FORCE_SUB_GROUP,
     FORCE_SUB_CHANNEL1,
-    FORCE_SUB_GROUP1,
     FORCE_SUB_CHANNEL2,
+    FORCE_SUB_CHANNEL3,
     LOGGER,
     OWNER,
     TG_BOT_TOKEN,
@@ -40,7 +38,7 @@ class Bot(Client):
         await super().start()
         usr_bot_me = await self.get_me()
 
-        if FORCE_SUB_CHANNEL:
+        if FORCE_SUB_CHANNEL1:
             try:
                 link = await self.export_chat_invite_link(FORCE_SUB_CHANNEL)
                 self.invitelink = link
@@ -56,63 +54,34 @@ class Bot(Client):
                     "\nBot Berhenti. Gabung Group https://t.me/pantekyks untuk Bantuan"
                 )
                 sys.exit()
-        if FORCE_SUB_GROUP:
+        if FORCE_SUB_CHANNEL2:
             try:
-                link = await self.export_chat_invite_link(FORCE_SUB_GROUP)
+                link = await self.export_chat_invite_link(FORCE_SUB_CHANNEL2)
                 self.invitelink2 = link
             except Exception as a:
                 self.LOGGER(__name__).warning(a)
                 self.LOGGER(__name__).warning(
-                    "Bot tidak dapat Mengambil link Undangan dari FORCE_SUB_GROUP!"
+                    "Bot tidak dapat Mengambil link Undangan dari FORCE_SUB_CHANNEL2!"
                 )
                 self.LOGGER(__name__).warning(
-                    f"Silakan periksa kembali var FORCE_SUB_GROUP dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Group Saat Ini: {FORCE_SUB_GROUP}"
+                    f"Silakan periksa kembali var FORCE_SUB_GROUP dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Group Saat Ini: {FORCE_SUB_CHANNEL2}"
                 )
                 self.LOGGER(__name__).info(
                     "\nBot Berhenti. Gabung Group https://t.me/pantekyks untuk Bantuan"
                 )
                 sys.exit()
-        if FORCE_SUB_CHANNEL1:
+        if FORCE_SUB_CHANNEL3:
             try:
-                link = await self.export_chat_invite_link(FORCE_SUB_CHANNEL1)
+                link = await self.export_chat_invite_link(FORCE_SUB_CHANNEL3)
                 self.invitelink3 = link
             except Exception as a:
                 self.LOGGER(__name__).warning(a)
                 self.LOGGER(__name__).warning(
-                    "Bot tidak dapat Mengambil link Undangan dari FORCE_SUB_CHANNEL1!"
+                    "Bot tidak dapat Mengambil link Undangan dari FORCE_SUB_CHANNEL3!"
                 )
                 self.LOGGER(__name__).warning(
-                    f"Silakan periksa kembali var FORCE_SUB_CHANNEL1 dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Channel Saat Ini: {FORCE_SUB_CHANNEL}"
+                    f"Silakan periksa kembali var FORCE_SUB_CHANNEL1 dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Channel Saat Ini: {FORCE_SUB_CHANNEL3}"
      
-                )
-                sys.exit()
-        if FORCE_SUB_CHANNEL2:
-            try:
-                link = await self.export_chat_invite_link(FORCE_SUB_CHANNEL2)
-                self.invitelink5 = link
-            except Exception as a:
-                self.LOGGER(__name__).warning(a)
-                self.LOGGER(__name__).warning(
-                    "Bot tidak dapat Mengambil link Undangan dari FORCE_SUB_CHANNEL2!"            
-                )
-                self.LOGGER(__name__).info(
-                    "\nBot Berhenti. Gabung Group https://t.me/pantekyks untuk Bantuan"
-                )
-                sys.exit()
-        if FORCE_SUB_GROUP1:
-            try:
-                link = await self.export_chat_invite_link(FORCE_SUB_GROUP1)
-                self.invitelink4 = link
-            except Exception as a:
-                self.LOGGER(__name__).warning(a)
-                self.LOGGER(__name__).warning(
-                    "Bot tidak dapat Mengambil link Undangan dari FORCE_SUB_GROUP1!"
-                )
-                self.LOGGER(__name__).warning(
-                    f"Silakan periksa kembali var FORCE_SUB_GROUP1 dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Group Saat Ini: {FORCE_SUB_GROUP}"
-                )
-                self.LOGGER(__name__).info(
-                    "\nBot Berhenti. Gabung Group https://t.me/pantekyks untuk Bantuan"
                 )
                 sys.exit()
         try:
