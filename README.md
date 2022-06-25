@@ -14,7 +14,7 @@ Bot Telegram untuk menyimpan Posting atau File yang dapat Diakses melalui Link K
 ##
 ### Installation
 #### Deploy on Heroku
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ReyyNada/Reyy-XFsub-Bot5"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ReyyNada/ReyyFileSharing4"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 **Tonton Video Tutorial Ini di YouTube untuk Bantuan memasang di Heroku**<br>
@@ -24,7 +24,7 @@ Bot Telegram untuk menyimpan Posting atau File yang dapat Diakses melalui Link K
 
 #### Deploy in your VPS
 ````bash
-git clone https://github.com/ReyyNada/File-Sharing-Reyy
+git clone https://github.com/ReyyNada/ReyyFileSharing4 
 cd File-Sharing
 pip3 install -r requirements.txt
 # <Create config.py appropriately>
@@ -62,7 +62,6 @@ python3 main.py
 * `FORCE_SUB_CHANNEL_2` Masukan ID dari Channel Untuk Wajib Subscribenya
 * `FORCE_SUB_CHANNEL_3` Masukan ID dari Channel Untuk Wajib Subscribenya
 * `FORCE_SUB_CHANNEL_4` Masukan ID dari Channel Untuk Wajib Subscribenya
-* `FORCE_SUB_CHANNEL_5` Masukan ID dari Channel Untuk Wajib Subscribenya
 ### Extra Variables
 
 * `CUSTOM_CAPTION` letakkan teks teks Kustom Anda jika Anda ingin Mengatur Teks Kustom, Anda dapat menggunakan HTML dan <a href='https://github.com/mrismanaziz/File-Sharing-Man/blob/main/README.md#custom_caption'>fillings</a> untuk pemformatan (hanya untuk dokumen)
@@ -84,7 +83,7 @@ python3 main.py
 
 
 ## Support   
-Bergabunglah di [Group Telegram ](https://www.telegram.dog/SharingUserbot) Untuk Dukungan/Bantuan Dan Join [Channel](https://www.telegram.dog/Lunatic0de) untu info Update bot.   
+Bergabunglah di [Group Telegram ](https://www.telegram.dog/pantekyks) Untuk Dukungan/Bantuan Dan Join [Channel](https://www.telegram.dog/mahadappa) untu info Update bot.   
    
 Laporkan Bug, Berikan Permintaan Fitur Di sana.. 
 
