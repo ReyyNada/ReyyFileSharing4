@@ -1,5 +1,6 @@
 # (©)Codexbotz
 # Recife By Zaen @Mafia_Tobatz
+# Recode By Dappa @mahadappa
 # Kalo clone Gak usah hapus 
 # gue tandain akun tele nya ngentod
 
@@ -34,16 +35,9 @@ CHANNEL = os.environ.get("CHANNEL", "Lunatic0de")
 GROUP = os.environ.get("GROUP", "SharingUserbot")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
-
-# ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "0"))
-FORCE_SUB_GROUP1 = int(os.environ.get("FORCE_SUB_GROUP1", "0"))
-
-# ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
-
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
