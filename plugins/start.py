@@ -1,5 +1,6 @@
 # (©)Codexbotz
 # Recode By Zaen @Mafia_Tobatz
+# Recode By Dappa @mahadappa
 # Kalo clone Gak usah hapus 
 # gue tandain akun tele nya ngentod
 
@@ -117,18 +118,15 @@ async def start_command(client: Client, message: Message):
         buttons = [
             [InlineKeyboardButton("• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about")],
             [
-                InlineKeyboardButton("•ᴄʜᴀɴᴇʟ•", url=client.invitelink),
-                InlineKeyboardButton("•ɢʀᴏᴜᴘ•", url=client.invitelink2),
+                InlineKeyboardButton("•ᴄʜᴀɴᴇʟ•", url=client.invitelink1),
+                InlineKeyboardButton("•ᴄʜᴀɴᴇʟ•", url=client.invitelink2),
             ],
             [
                 InlineKeyboardButton("•ᴄʜᴀɴᴇʟ•", url=client.invitelink3),
-                InlineKeyboardButton("•ɢʀᴏᴜᴘ•", url=client.invitelink4), 
+                InlineKeyboardButton("•ᴄʜᴀɴᴇʟ•", url=client.invitelink4), 
             ],
-            [    InlineKeyboardButton("•ᴄʜᴀɴᴇʟ•", url=client.invitelink5),
-            ],  
-
             [
-                InlineKeyboardButton("• ᴛᴜᴛᴜᴘ •", callback_data="close"),
+                InlineKeyboardButton("•ᴄᴏʙᴀ ʟᴀɢɪ•", callback_data="close"),
             ],
         ]
         await message.reply_text(
@@ -155,14 +153,12 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton("•ᴄʜᴀɴᴇʟ•", url=client.invitelink), 
-            InlineKeyboardButton("•ɢʀᴏᴜᴘ•", url=client.invitelink2),
+            InlineKeyboardButton("•ᴄʜᴀɴᴇʟ•", url=client.invitelink1), 
+            InlineKeyboardButton("•ᴄʜᴀɴᴇʟ•", url=client.invitelink2),
         ],
         [
             InlineKeyboardButton("•ᴄʜᴀɴᴇʟ•", url=client.invitelink3), 
-            InlineKeyboardButton("•ɢʀᴏᴜᴘ•", url=client.invitelink4),
-        ],
-        [   InlineKeyboardButton("•ᴄʜᴀɴᴇʟ•", url=client.invitelink5),
+            InlineKeyboardButton("•ᴄʜᴀɴᴇʟ•", url=client.invitelink4),
         ],
     ]
     try:
